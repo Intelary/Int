@@ -1,0 +1,203 @@
+.card-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.card-item {
+  background: #ffffff;
+  border: 0.5px solid #dee2e6;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+
+.card-item:hover {
+  transform: translateY(-3px);
+}
+
+.card-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  transition: background 0.18s ease;
+}
+
+.card-body-text {
+  text-align: center;
+}
+
+.card-body-text .card-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212529;
+  margin: 0;
+}
+
+.card-body-text .card-sub {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 0;
+}
+
+.card-role .card-icon-wrap { background: #EEEDFE; color: #534AB7; }
+.card-role:hover .card-icon-wrap { background: #CECBF6; }
+.card-role { background: #EEEDFE; border-color: #CECBF6; }
+.card-role:hover { background: #CECBF6; border-color: #AFA9EC; }
+
+.card-wa .card-icon-wrap    { background: #E1F5EE; color: #0F6E56; }
+.card-wa:hover .card-icon-wrap   { background: #9FE1CB; }
+.card-wa { background: #E1F5EE; border-color: #9FE1CB; }
+.card-wa:hover { background: #9FE1CB; border-color: #5DCAA5; }
+
+.card-otw .card-icon-wrap   { background: #FAEEDA; color: #854F0B; }
+.card-otw:hover             { background: #FAEEDA; border-color: #EF9F27; }
+.card-otw:hover .card-icon-wrap  { background: #FAC775; }
+.card-otw { background: #FAEEDA; border-color: #FAC775; }
+
+/* ──────────────────────────────
+   Department Page
+────────────────────────────── */
+.dept-card {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.dept-card .card-header {
+  background: #ffffff;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.dept-card .card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.dept-card .card-divider {
+  border: none;
+  border-top: 2px solid #f0a500;
+  margin: 8px 0 16px;
+}
+
+/* Save / Update button */
+.btn-save {
+  background: #185FA5;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.18s ease;
+}
+
+.btn-save:hover {
+  background: #0C447C;
+  color: #ffffff;
+}
+
+/* Cancel button */
+.btn-cancel-dept {
+  background: #f8f9fa;
+  color: #6c757d;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.18s ease;
+}
+
+.btn-cancel-dept:hover {
+  background: #e9ecef;
+  color: #495057;
+}
+
+/* Table */
+#dept_table thead th {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6c757d;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 10px 12px;
+}
+
+#dept_table tbody td {
+  font-size: 14px;
+  color: #212529;
+  padding: 10px 12px;
+  vertical-align: middle;
+}
+
+#dept_table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+/* Action buttons */
+.btn-action-edit {
+  background: #E6F1FB;
+  color: #185FA5;
+  border: none;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+
+.btn-action-edit:hover {
+  background: #B5D4F4;
+  color: #0C447C;
+}
+
+.btn-action-gear {
+  background: #FAEEDA;
+  color: #854F0B;
+  border: none;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+
+.btn-action-gear:hover {
+  background: #FAC775;
+  color: #633806;
+}
+
+.btn-action-delete {
+  background: #FCEBEB;
+  color: #A32D2D;
+  border: none;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+
+.btn-action-delete:hover {
+  background: #F7C1C1;
+  color: #791F1F;
+}
