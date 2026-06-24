@@ -58,6 +58,9 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
+
+// Database & Session Config Internal
+
 $autoload['libraries'] = array('database', 'session');
 
 /*
@@ -89,7 +92,10 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url', 'file', 'general');
+
+// Multiple Internal Helper & Custom Helper
+
+$autoload['helper'] = array('url', 'file', 'general', 'form');
 
 /*
 | -------------------------------------------------------------------

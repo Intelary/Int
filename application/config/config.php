@@ -23,6 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+
+// Primary Config
+
 $config['base_url'] = 'http://localhost:8000';
 
 /*
@@ -383,6 +386,9 @@ $config['encryption_key'] = '';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
+
+// Database Session History
+
 $config['sess_driver'] = 'database';
 $config['sess_cookie_name'] = 'sessions';
 $config['sess_samesite'] = 'Lax';

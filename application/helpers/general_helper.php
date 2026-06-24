@@ -3,7 +3,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 function permissible($permission, $able){
-  // ?
+  // Role & Controller
   $ci = &get_instance();
   $roleKey = $ci->session->userdata('roleKey');
   // Super User Default True
