@@ -79,7 +79,7 @@ class Auth extends OutController {
     // User Off !
     if ($this->session->userdata()) {
       // Sign Off
-      // $this->authmodel->logout();
+      $this->authmodel->logout();
       // Disable User !
       $this->session->sess_destroy();
     }

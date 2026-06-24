@@ -57,7 +57,7 @@ class Auth_model extends CI_Model {
   }
 
   public function logout(){
-    // ?
+    // Final Sign Out
     $historyKey = $this->session->userdata('historyKey');
     $this->db->where('id', $historyKey);
     $logtime = array('logout_at' => date('Y-m-d H:i:s'));
