@@ -30,7 +30,7 @@ function initvalidate(passwordId, confirmId, errorId) {
   });
 }
 
-function showLogoutModal(e) {
+function farewell(e) {
   // ?
   e.preventDefault();
   const url = e.currentTarget.href;

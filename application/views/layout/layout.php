@@ -17,6 +17,8 @@
   <!-- Auth & Hub -->
    <link rel="stylesheet" href="<?= base_url('assets/css/auth.css'); ?>">
    <link rel="stylesheet" href="<?= base_url('assets/css/hub.css'); ?>">
+   <!-- Profile & Kata Sandi -->
+   <link rel="stylesheet" href="<?= base_url('assets/css/profile.css'); ?>">
 </head>
 <body>
   <!-- Variable Kondisional -->
